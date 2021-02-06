@@ -92,7 +92,7 @@ bot.on('ready', () => {
     }
 
     if(message.content.startsWith('d!play3')) {
-      message.channel.send(`🆗 ${message.author} here is the link to the third game https://rb.gy/o2krdf`)
+      message.channel.send(`🆗 ${message.author} here is the link to the third game rb.gy/o2krdf`)
     }
 
 
