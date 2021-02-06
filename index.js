@@ -33,10 +33,11 @@ bot.on('ready', () => {
         .setTitle('Help')
         .setDescription(`${message.author} called the help command`)
         .addField('Game', 'Type d!play1 to play a game', true)
-        .addField('Help', `want help with this bot just type d!help ${message.author}`)
-        .addField('Vote', 'Do you want your name to be red?? well then voter rank is for you so go vote now by typing d!vote')
-        .addField('Game 2', `To play the second game ${message.author} type d!play2`)
-        .addField('Ping', `If you want you check you ping with the bot ${message.author} type d!ping`)
+        .addField('Help', `want help with this bot just type d!help ${message.author}`, true)
+        .addField('Vote', 'Do you want your name to be red?? well then voter rank is for you so go vote now by typing d!vote', true)
+        .addField('Game 2', `To play the second game ${message.author} type d!play2`, true)
+        .addField('Ping', `If you want you check you ping with the bot ${message.author} type d!ping`, true)
+        .addField('Game 3', 'The thord game of this bot typed!play3 for it', true)
         .addField('To view more features subscribe to these 2 channels ', '1. https://www.youtube.com/channel/UCv4L0vzBU_h1_qeBdaaURkw', true)
         
         .addField('second channel', '2. https://m.youtube.com/channel/UCtH_hO_5HDAni7FC_x-hxDA', true)
@@ -88,6 +89,10 @@ bot.on('ready', () => {
 
     if(message.content.startsWith('d!ping')) {
       message.channel.send(`🏓Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(bot.ws.ping)}ms`);
+    }
+
+    if(message.content.startsWith('d!play3')) {
+      message.channel.send(`🆗 ${message.author} here is the link to the third game https://rb.gy/o2krdf`)
     }
 
 
