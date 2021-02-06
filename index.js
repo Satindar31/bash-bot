@@ -35,6 +35,7 @@ bot.on('ready', () => {
         .addField('Game', 'Type d!play1 to play a game', true)
         .addField('Help', `want help with this bot just type d!help ${message.author}`)
         .addField('Vote', 'Do you want your name to be red?? well then voter rank is for you so go vote now by typing d!vote')
+        .addField('Game 2', `To play the second game ${message.author} type d!play2`)
         .addField('To view more features subscribe to these 2 channels ', '1. https://www.youtube.com/channel/UCv4L0vzBU_h1_qeBdaaURkw', true)
         
         .addField('second channel', '2. https://m.youtube.com/channel/UCtH_hO_5HDAni7FC_x-hxDA', true)
@@ -77,6 +78,11 @@ bot.on('ready', () => {
 
     if(message.content.startsWith('d!verify')) {
       message.author.createDM('You were verified!')
+    }
+
+
+    if(message.content.startsWith('d!play2')) {
+      message.channel.send(`Ok ${message.author} lets play a game here is the link now find the switch to turn on the game https://discord.com/botgame hope you can do it😉 ${message.author}`)
     }
 
 
