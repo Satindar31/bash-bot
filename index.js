@@ -37,7 +37,7 @@ bot.on('ready', () => {
         .addField('Vote', 'Do you want your name to be red?? well then voter rank is for you so go vote now by typing d!vote', true)
         .addField('Game 2', `To play the second game ${message.author} type d!play2`, true)
         .addField('Ping', `If you want you check you ping with the bot ${message.author} type d!ping`, true)
-        .addField('Game 3', 'The thord game of this bot typed!play3 for it', true)
+        .addField('Game 3', 'The thord game of this bot type d!play3 for it', true)
         .addField('To view more features subscribe to these 2 channels ', '1. https://www.youtube.com/channel/UCv4L0vzBU_h1_qeBdaaURkw', true)
         
         .addField('second channel', '2. https://m.youtube.com/channel/UCtH_hO_5HDAni7FC_x-hxDA', true)
