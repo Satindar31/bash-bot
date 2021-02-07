@@ -1,6 +1,8 @@
 const Discord = require ('discord.js');
 const prefix = 'd!';
 const bot = new Discord.Client();
+const cheerio = require('cheerio');
+const request = require('request');
 
 bot.on('ready', () => {
     console.log('bot is online thank god!')
@@ -11,6 +13,18 @@ bot.on('ready', () => {
   
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const command = args.shift().toLocaleLowerCase();
+
+    switch (args[0]) {
+      case 'image':
+      image(message)
+
+
+      break;
+
+
+
+    }
+
 
     if(message.content.startsWith('d!play1')) {
       const game = new Discord.MessageEmbed()
@@ -108,9 +122,6 @@ bot.on('ready', () => {
     }
 
 
-
-
-
     
 
     
@@ -118,9 +129,20 @@ bot.on('ready', () => {
    
 
 
-  })
+  });
 
-    
+    function image(message){
+
+      var options = {
+        url: "https://results.dogpile.com/serp?qc=images&q=" + "meme",
+        method: "GET",
+        headers: {
+          "Accept": "text/html",
+          "User-Agent": "Chrome"
+        }
+      };
+
+    }
 
 
 
