@@ -107,17 +107,6 @@ bot.on('ready', () => {
       message.reply(`https://www.youtube.com/watch?v=Ilx_xJHuhAc is easyly the best song`)
     }
 
-    if(message.content.startsWith('d!meme')) {
-      message.reply('https://images-ext-1.discordapp.net/external/wIwauo5CcAAy8l0IoAiXtaEgdMZWfI33H-YBXRaQB-0/https/i.redd.it/clyq1314fvf61.gif')
-    }
-
-
-    if(message.content.startsWith('d!meme')) {
-      message.reply('https://imgur.com/a/15m9QiF')
-    }else {
-      message.reply('https://images-ext-2.discordapp.net/external/iOGN5r_ng1-yi_Iy-bZGHcEcGcnsIzLG0nbEoP46Y1g/https/i.redd.it/shrfr5d0guf61.jpg?width=549&height=663')
-    } 
-    
 
 
 
