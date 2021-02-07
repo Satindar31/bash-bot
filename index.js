@@ -97,8 +97,12 @@ bot.on('ready', () => {
 
     if(message.content.startsWith('d!most_viewed')) (
       message.channel.send(`Did you know ${message.author} that techno gamerz game on is the most viewed music video on youtube so just search game on in https://youtube.com or click here https://www.youtube.com/watch?v=Ilx_xJHuhAc`)
-      
+
     )
+
+    if(message.content.startsWith('d!best_song')) {
+      message.reply(`https://www.youtube.com/watch?v=Ilx_xJHuhAc is easyly the best song`)
+    }
 
     
 
