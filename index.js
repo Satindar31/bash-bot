@@ -95,6 +95,13 @@ bot.on('ready', () => {
       message.channel.send(`🆗 ${message.author} here is the link to the third game rb.gy/o2krdf`)
     }
 
+    if(message.content.startsWith('d!most_viewed')) (
+      message.channel.send(`Did you know ${message.author} that techno gamerz game on is the most viewed music video on youtube so just search game on in https://youtube.com or click here https://www.youtube.com/watch?v=Ilx_xJHuhAc`)
+      
+    )
+
+    
+
 
 
 
