@@ -128,7 +128,10 @@ bot.on('ready', () => {
 
       if(message.content.startsWith('d!play4')) {
         message.channel.send(`Ok ${message.author} play the fourth game at https://chromedino.com/`)
+        .then(`Do it ${message.author}`)
       }
+
+      
 
    
 
