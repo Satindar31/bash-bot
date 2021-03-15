@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/extremepro999/bot-1.git"
+    "url": "git+https://github.com/extremepro999/bash-bot.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/extremepro999/bot-1.git/issues"
+    "url": "https://github.com/extremepro999/bash-bot.git"
   },
-  "homepage": "https://github.com/extremepro999/bot-1.git#readme"
+  "homepage": "https://github.com/extremepro999/bash-bot.git"
 }
